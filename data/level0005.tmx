@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="24" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="mapLoc" value="21,8,22,8"/>
+ </properties>
+ <tileset firstgid="1" name="Collision" tilewidth="16" tileheight="16">
+  <image source="tileset/collision.png" width="256" height="48"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="diagUp" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="diagUp" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="diagDown" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="diagDown" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="appearRightDown" value="false"/>
+    <property name="appearRightUp" value="false"/>
+    <property name="blocked" value="true"/>
+    <property name="doorLeftDown" value="true"/>
+    <property name="doorNu" value="000x"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="appearLeftDown" value="false"/>
+    <property name="appearLeftUp" value="false"/>
+    <property name="blocked" value="true"/>
+    <property name="doorNu" value="000x"/>
+    <property name="doorRightDown" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="appearRightDown" value="true"/>
+    <property name="appearRightUp" value="false"/>
+    <property name="blocked" value="true"/>
+    <property name="doorLeftUp" value="true"/>
+    <property name="doorNu" value="0002"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="appearLeftDown" value="true"/>
+    <property name="appearLeftUp" value="false"/>
+    <property name="blocked" value="true"/>
+    <property name="doorNu" value="0006"/>
+    <property name="doorRightUp" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="stopSignal" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="startSignal" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="stopSignal" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="startSignal" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="49" name="Entities" tilewidth="16" tileheight="16">
+  <image source="tileset/entities.png" width="256" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="ship" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="marine" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="113" name="item" tilewidth="16" tileheight="16">
+  <image source="tileset/items.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="177" name="doors" tilewidth="16" tileheight="16">
+  <image source="tileset/doorElev.png" width="1136" height="128"/>
+ </tileset>
+ <tileset firstgid="745" name="blueMetal" tilewidth="16" tileheight="16">
+  <image source="tileset/blueMetal.png" width="1136" height="128"/>
+ </tileset>
+ <tileset firstgid="1313" name="backgnd" tilewidth="16" tileheight="16">
+  <image source="backgnd/Crateria01.gif" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="1569" name="rocks" tilewidth="16" tileheight="16">
+  <image source="tileset/undergroundRock.png" width="1136" height="128"/>
+ </tileset>
+ <layer name=" 0_collision" width="50" height="24" opacity="0.7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TwQkAIBADwfwE7b9fi9DjQGcg/3w2AYB/jUcGFWb3gQtW+vvUOQCc29psj2PAEgAA
+  </data>
+ </layer>
+ <layer name="1_render" width="50" height="24" opacity="0.7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAADg1wAW4j6/wBIAAA==
+  </data>
+ </layer>
+ <layer name="2_render" width="50" height="24" opacity="0.4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3LtQ1EQQAD0U22/xqOmZmZmRlKuWngpxucPNKLLBujlFJKqX/KZ43xI4AgQggjgihiiCOBJFJII4Osdf/3KseWRwFFlFBGBVXUUEcDTbTQRgdd6/7vVY+tjwGGGGGMCaaYYY4FllhhjQ221v3fqx3bHgccccIZF1xxwx0PPPHCGx98rfu/Ukoppf6rHwfmLGrAEgAA
+  </data>
+ </layer>
+ <layer name="3_render" width="50" height="24" opacity="0.63">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA92YyU7DMBCGp03fCO5lfyh6Z+cNkodgKXCFV0mOcGeH/1Ak65fH9tihJVj6NFLbzO5opvVEpHZoF7JR+PmuW/xWkzXRKJ+V0Dm0BNtiP3JkQ3rYFvuUAvvXOtIXVzsJ5z1Fdh49rDuUC189OfcsS+sQ68tQv6agPa/lP6cOqb7k3o1YHOyT2w8WO7GccH6shJ4LxdYHpe+knHeXloNc+spFCvuVyKwavrwHD/9AXojIJbgC1zKcMwc34BbcgWfwAl7B2wr9sp538AE+wReYjkQ2wCbYGq3WN8vZhq87YBfsgQNwCI7A8YDiOIGvp+AMnIPHscjTePhyDXd9vRq+tMxEfxXLnFliI3e2tVAyd8RwY+H9h3cL65xp3f/6yNEyau7a4vnRMqcvs+Zav/rm39i8yrq4jtpO6uunPnYqrX9T6uib77X/S0r7xne/Qn6X3Knf6iWfXu6bb94PXvPAEgAA
+  </data>
+ </layer>
+ <layer name="4_stuff" width="50" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAADg1wAW4j6/wBIAAA==
+  </data>
+ </layer>
+ <layer name="5_entities" width="50" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OMQEAAAgDoHWyfzcj7PQQEpAAAHRzHQAA4K0FGAnLfsASAAA=
+  </data>
+ </layer>
+</map>
