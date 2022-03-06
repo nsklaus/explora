@@ -2,7 +2,7 @@
 
 game similar to metroid series.  
 made in java, uses tiled and slick2d.  
-its status is techdemo, abandoned.  
+its status is techdemo, abandonned.  
    
 features so far:
 - free exploration
